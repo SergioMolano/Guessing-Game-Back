@@ -60,4 +60,4 @@ Get Attempts Count:
 GET /intentos
 Retrieves the number of attempts made in the game.
 
-After running the project, it necessary to run the Front End in order to play the guessing number game.
+After running the project, it is necessary to run the Front End in order to play the guessing number game.

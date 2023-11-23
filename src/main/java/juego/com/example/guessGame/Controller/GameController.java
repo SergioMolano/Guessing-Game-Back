@@ -42,7 +42,7 @@ public class GameController {
 
         if (suposicion == numeroAleatorio) {
             juegoTerminado = true;
-            return "¡Felicidades! Has adivinado el número en " + intentos + " intentos.";
+            return "¡Felicidades! Has adivinado el número.";
         } else if (suposicion < numeroAleatorio) {
             return "La suposición es más baja que el número a adivinar. Intenta de nuevo.";
         } else {

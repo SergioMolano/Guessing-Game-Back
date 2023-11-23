@@ -63,4 +63,8 @@ public class GameController {
     public int getNumeroAleatorio() {
         return numeroAleatorio;
     }
+
+    public void setNumeroAleatorio(int i) {
+        numeroAleatorio = i;
+    }
 }

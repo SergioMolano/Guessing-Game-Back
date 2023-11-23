@@ -1,6 +1,6 @@
 # Guessing Number Game Backend
 
-Welcome to the Guessing Number Game Backend! This backend is built with Java, Spring Boot, and JDK 11. It serves as the server-side logic for the guessing number game.
+Welcome to the Guessing Number Game Backend! This backend is built with Java, Spring Boot version 2.7.17, and JDK 11. It serves as the server-side logic for the guessing number game.
 
 ## Table of Contents
 
@@ -20,6 +20,7 @@ Welcome to the Guessing Number Game Backend! This backend is built with Java, Sp
 Make sure you have the following installed before setting up the backend:
 
 - [JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- Make sure to use Gradle Groovy
 
 ## Installation
 
@@ -37,19 +38,14 @@ Navigate to the project directory:
 cd guessing-number-game-backend
 ```
 
-Build the project:
+Build gradle.
 
-```bash
-mvn clean install
-```
+
 
 ## Usage
 
-To start the backend server, run:
+To start the backend server, run the project.
 
-```bash
-mvn spring-boot:run
-```
 The backend will be available at http://localhost:8080.
 
 ## API Endpoints
@@ -63,3 +59,5 @@ Get Attempts Count:
 
 GET /intentos
 Retrieves the number of attempts made in the game.
+
+After running the project, it necessary to run the Front End in order to play the guessing number game.

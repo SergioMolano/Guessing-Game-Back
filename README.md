@@ -1,4 +1,4 @@
-# Guessing Number Game Backend
+# Guessing Number Game Back End
 
 Welcome to the Guessing Number Game Backend! This backend is built with Java, Spring Boot version 2.7.17, and JDK 11. It serves as the server-side logic for the guessing number game.
 

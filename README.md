@@ -29,7 +29,7 @@ To run the backend locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/your-username/guessing-number-game-backend.git
+   git clone https://github.com/SergioMolano/Guessing-Game-Back.git
 ```
 
 Navigate to the project directory:
